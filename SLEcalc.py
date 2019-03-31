@@ -11,7 +11,7 @@ print("                 2. Three Equations                 ")
 print("                  3. Four Equations                 ")
 print("____________________________________________________")
 
-choice = input("Number of Equations: ")
+choice = int(input("Number of Equations: "))
 
 if choice == '1':
     import SLE2calc
