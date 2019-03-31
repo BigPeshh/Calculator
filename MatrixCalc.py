@@ -23,7 +23,7 @@ print("               3. Multiplication                    ")
 print("            4. Scalar Multiplication                ")
 print("____________________________________________________")
 
-choice = input("Operation: ")
+choice = int(input("Operation: "))
 print("Separate columns by commas and rows by semi-columns")
 x = np.matrix(input("Matrix 1: "))
 y = np.matrix(input("Matrix 2: "))
