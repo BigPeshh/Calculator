@@ -1,12 +1,15 @@
-def derivative():
-    a = float(input("Coefficient: "))
-    n = float(input("Exponent: "))
-    if n > 1:
-        print("Derivative: ", a*n, "x^", n-1 )
-    elif n == 0:
-        print("Derivative: 0")
-    elif n == 1:
-        print("Derivative: ", a)
-    elif n < 0:
-        print("Derivative: ", a*n, "/x^", abs(n-1))
-derivative()
+from sympy import *
+
+x = Symbol('x')
+a = int(input("Coefficient: "))
+n = int(input("Exponent: "))
+f = a*x**n
+
+df = f.diff(x)
+print("First Derivative: ", df)
+
+d2f = df.diff(x)
+print("Second Derivative: ", d2f)
+
+d3f = d2f.diff(x)
+print("3rd Derivative: ", d3f)
