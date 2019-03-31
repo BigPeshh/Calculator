@@ -19,4 +19,4 @@ elif choice == '2':
 elif choice == '3':
     import MatrixCalc
 elif choice == '4':
-    import DERIVcalc
+    import DerivativeCalc
