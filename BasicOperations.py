@@ -19,7 +19,7 @@ print("               3. Multiplication                    ")
 print("                  4. Division                       ")
 print("____________________________________________________")
 
-op = input("Operation: ")
+op = int(input("Operation: "))
 
 num1 = float(input("First Number: "))
 num2 = float(input("Second Number: "))
