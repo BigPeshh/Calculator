@@ -1,5 +1,3 @@
-# define addition, subtraction, multiplication, and division
-
 def add(x, y):
    return x + y
 def sub(x, y):
