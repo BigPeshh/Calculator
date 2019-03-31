@@ -1,15 +1,9 @@
 from sympy import *
 
 x = Symbol('x')
-a = int(input("Coefficient: "))
-n = int(input("Exponent: "))
-f = a*x**n
 
-df = f.diff(x)
-print("First Derivative: ", df)
+a = input("Equation: ")
 
-d2f = df.diff(x)
-print("Second Derivative: ", d2f)
-
-d3f = d2f.diff(x)
-print("3rd Derivative: ", d3f)
+print("First Derivative: ", diff(a, x, 1))
+print("Second Derivative: ", diff(a, x, 2))
+print("Thrid Derivative: ", diff(a, x, 3))
