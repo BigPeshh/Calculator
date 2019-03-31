@@ -4,19 +4,19 @@ print("====================================================")
 print("   Please select the number of the choice needed    ")
 print("____________________________________________________")
 print(" ")
-print("                1. Basic operations                 ")
-print("            2. System of Linear Equations           ")
-print("                3. Matrix Calculator                ")
-print("              4. Derivative Calculator              ")
+print("                1. Basic Operations                 ")
+print("              2. Advanced Operations                ")
+print("               3. Algebra Calculator                ")
+print("               4. Calculus Calculator               ")
 print("____________________________________________________")
 
-choice = input("Choice: ")
+choice = int(input("Choice: "))
 
 if choice == '1':
     import BasicOperations
 elif choice == '2':
-    import SLEcalc
+    import AdvancedOperations
 elif choice == '3':
-    import MatrixCalc
+    import AlgebraCalc
 elif choice == '4':
-    import DerivativeCalc
+    import CalculusCalc
