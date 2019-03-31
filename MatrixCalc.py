@@ -25,8 +25,8 @@ print("____________________________________________________")
 
 choice = int(input("Operation: "))
 print("Separate columns by commas and rows by semi-columns")
-x = np.matrix(input("Matrix 1: "))
-y = np.matrix(input("Matrix 2: "))
+x = np.matrix(float(input("Matrix 1: ")))
+y = np.matrix(float(input("Matrix 2: ")))
 n = float(input("Scalar for Matrix 1: "))
 m = float(input("Scalar for Matrix 2: "))
 
