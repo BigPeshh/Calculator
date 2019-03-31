@@ -3,7 +3,7 @@ This is my first project using Python. In this project, I am creating specific c
 
 The Calculator is made up of imported files. The files go in this order:
 
-Calculator.py /n
+Calculator.py
 	BasicOperations.py
 	AdvancedOperations.py
 	AlgebraCalc.py
